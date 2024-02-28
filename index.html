@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html> <!--build site here-->
+  <head>
+    <meta charset="utf-8">
+    <title>H2 Computing</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>    
+      <h1>H2 Computing</h1>
+      <p>Developing Future-Ready Computing Professionals</p>
+    </header>
+    <section>
+      <h2>What is Computing?</h2>
+      <p>Computing, in the context of computer science, refers to the process of using computer systems to solve problems. This involves the design and use of algorithms, data structures, and computer systems to process, manage, and visualize information. It's a broad field that includes various sub-disciplines like software engineering, data science, artificial intelligence, and more.</p>
+    </section>
+    <section>
+      <div class="header"> <!-- class is sth all divs can share, a class is preceeded by a period in css -->
+        <p>I want to do <span class="important_word">well!</p>
+      </div>
+      <table class="header">
+        <tr>
+          <th id="mark">Mark</th> <!-- id is unique to each element, an id is preceeded by a hashtag in css -->
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <td>At least 70</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>60-69</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>55-59</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>50-54</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <td>45-44</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>40-44</td>
+          <td>S</td>
+        </tr>
+        <tr>
+          <td>Less than 40</td>
+          <td>U</td>
+        </tr>
+      </table>
+      <br>
+      <form>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject"> <!--name is a variable that will be passed on to the server to group data, id has to be unique for each element and can't be resued  -->
+        <br>
+        <label for="goal">What I want to score:</label>
+        <select id="goal" name="goal">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </body>
+</html>
